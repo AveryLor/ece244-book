@@ -1,4 +1,5 @@
 .DS_Store
+Untitled.rtf
 textbook/_build
 .vscode/
 textbook/code/*/*/build/
@@ -6,4 +7,4 @@ textbook/code/*/*/build/
 *.key
 *.mov
 *.m4v
-
+textbook/code/

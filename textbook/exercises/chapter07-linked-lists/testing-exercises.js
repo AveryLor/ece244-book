@@ -57,11 +57,11 @@ let parsedObject;
         4
       ],
       "choices": [
-        "(1) true",
-        "(2) `ptr != nullptr`",
-        "(3) `*ptr == nullptr`",
-        "(4) `*ptr != h`",
-        "(5) `ptr != *h`"
+        "(1) Nothing",
+        "(2) `cout << ptr->key << endl;`",
+        "(3) `cout << (*ptr).key << endl;`",
+        "(4) `cout << &(*ptr)->key << endl;`",
+        "(5) `cout << (*ptr)->key << endl;`"
       ],
       "explanation": "(5) `cout << (*ptr)->key << endl;`"
     },
@@ -72,7 +72,7 @@ let parsedObject;
       "table": false,
       "type": "multiple-choice",
       "multipart": true,
-      "question": "(3) What should `Line 2 removed` be replaced with? Choose one answer.\n",
+      "question": "(4) What should `Line 3 removed` be replaced with? Choose one answer.\n",
       "answer": [
         1
       ],
